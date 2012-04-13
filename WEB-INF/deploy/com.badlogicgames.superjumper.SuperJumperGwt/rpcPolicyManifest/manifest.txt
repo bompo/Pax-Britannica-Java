@@ -1,0 +1,2 @@
+# Module com.badlogicgames.superjumper.SuperJumperGwt
+# RPC service class, partial path of RPC policy file

@@ -1,0 +1,17 @@
+{
+  "name": "Pax Britannica",
+  "description": "Pax Britannica is a one-touch real-time strategy game by No Fun Games.",
+  "version": "0.0.0.1",
+  "app": {
+    "urls": [
+      "http://bompo-content.appspot.com/"
+    ],
+    "launch": {
+      "web_url": "http://bompo-content.appspot.com/webgl/paxbritannica/index.html"
+    }
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  }
+}

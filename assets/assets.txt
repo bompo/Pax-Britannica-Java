@@ -1,0 +1,14 @@
+d:war/
+d:data
+d:data/audio
+a:data/audio/music.ogg
+d:data/spritepack
+i:data/spritepack/credits.png
+b:data/spritepack/pack
+b:data/spritepack/packhigh
+t:data/spritepack/arial-15.fnt
+i:data/spritepack/sprites2.png
+i:data/spritepack/singleSprites1.png
+i:data/spritepack/arial-15.png
+i:data/spritepack/title.png
+i:data/spritepack/sprites1.png
