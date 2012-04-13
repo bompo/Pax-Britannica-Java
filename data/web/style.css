@@ -1,0 +1,127 @@
+*
+{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  background-color: #0b1112;
+  background-image: url(background.png);
+  background-repeat: repeat-x;
+  color: #ccc;
+  font-size: 11pt;
+  font-family: sans-serif;
+}
+
+#applet_container {
+    margin: 0 auto;
+    width: 1024px;
+    text-align: left;
+}
+
+.full-width
+{
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+p, ul, ol, table
+{
+  margin-top: 1em;
+}
+
+p:first-child, ul:first-child, ol:first-child, table:first-child
+{
+  margin-top: 0;
+}
+
+h1, h2
+{
+    color: #fff;
+}
+
+h2
+{
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+li
+{
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.download_grid
+{
+  text-align: center;
+}
+
+.download_grid li
+{
+  display: inline-block;
+  width: 30%;
+  margin-left: 0;
+  margin-bottom: 1em;
+}
+
+.download_grid li a
+{
+  display: block;
+}
+
+.download_grid li small
+{
+  font-size: 70%;
+  margin-top: -0.25em;
+}
+
+table
+{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+td+td
+{
+  padding-left: 12px;
+}
+
+td > img:first-child
+{
+  display: block;
+}
+
+.right
+{
+  text-align: right;
+  margin: 0.5em 1em 1.5em 1em;
+}
+
+#title, #title img, #footer img
+{
+  display: block;
+  background-color: #000;
+}
+
+.content
+{
+  margin: 2em auto;
+  width: 569px;
+  padding: 0 40px 40px 40px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"><head> 
+<title>Pax Britannica</title> 
+<link rel="stylesheet" type="text/css" href="style.css"/> 
+<link rel="shortcut icon" href="favicon.png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head><body>
+
+<div class="content"> 
+<!-- load the background quickly, it's small :3 -->
+<div style="display: none"><img src="background.png" /></div>
+
+<div class="full-width">
+<h1><a href=""><img src="title.png" alt="Pax Britannica"/></a></h1>
+</div>
+ 
+<p>Pax Britannica is a one-button real-time strategy game by No Fun Games.
+Up to four players battle it out underwater, struggling to be the last one
+standing!</p>
+</div>
+
+<div id="applet_container">
+  <applet code="org.lwjgl.util.applet.AppletLoader" archive="lwjgl_util_applet.jar" codebase="." width="1024" height="550">
+  
+    <param name="al_title" value="AppletStarter">
+    <param name="al_main" value="de.swagner.paxbritannica.AppletStarter">
+    <param name="al_logo" value="loading.png">
+    <param name="al_progressbar" value="appletprogress.gif">
+
+    <param name="al_cache" value="true"
+    <param name="al_version" value="2">  
+ 
+    <param name="al_bgcolor" value="000000">
+    <param name="al_fgcolor" value="ffffff">
+    
+    <param name="al_jars" value="pax_britannica_applet.jar, gdx.jar, gdx-backend-lwjgl.jar">
+
+    <param name="al_windows" value="gdx-natives.jar, gdx-backend-lwjgl-natives.jar">
+    <param name="al_linux" value="gdx-natives.jar, gdx-backend-lwjgl-natives.jar">
+    <param name="al_mac" value="gdx-natives.jar, gdx-backend-lwjgl-natives.jar">
+    <param name="al_solaris" value="gdx-natives.jar, gdx-backend-lwjgl-natives.jar">
+    
+    <param name="codebase_lookup" value="false">
+
+    <param name="java_arguments" value="-Dsun.java2d.noddraw=true -Dsun.awt.noerasebackground=true -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.pmoffscreen=false -Xmx800M">
+   <param name="lwjgl_arguments" value="-Dorg.lwjgl.input.Mouse.allowNegativeMouseCoords=true">
+    <param name="separate_jvm" value="true">
+
+ <br/>You need Java installed to play this game. <br> You may use the button below to get it.<br/><br/> 
+    <a href="http://java.com/download" onclick="window.open( this.href ); return false"> 
+    <img src="http://java.com/en/img/everywhere/getjava_lg.gif" alt="Get Java" style="border-style: none"> 
+    </a> 
+  </applet>
+</div>
+
+<div class="content"> 
+<h2>How to Play</h2>
+
+<p>
+The A, F, H, and L keys control the four players, and the escape key quits.
+</p>
+
+<p>
+Holding down the button spins the needle on the radial menu in the middle of
+the player's factory ship. The needle will only travel as far as the player's
+current resources allow. Resources (gold?  seaweed? who knows!) accumulate over
+time.
+</p>
+
+<p>
+Releasing the button creates a ship that corresponds
+to the quadrant that the needle is pointing at.
+</p>
+
+<table cellspacing="0" cellpadding="0" class="production">
+<tr><td><img src="fighter-production.png" alt="" /></td>
+<td class="bomber-desc">
+Fighter: Small, fast and cheap. Great at chasing down bombers.
+</td></tr>
+<tr><td><img src="bomber-production.png" alt="" /></td>
+<td class="bomber-desc">
+Bomber: Shoots slow projectiles that do massive damage to frigates or enemy factory ships!
+</td></tr>
+<tr><td><img src="frigate-production.png" alt="" /></td>
+<td class="bomber-desc">
+Frigate: A great hulk of a ship that fires volleys of heat-seeking torpedoes. Effective against fighters.
+</td></tr>
+<tr><td><img src="upgrade-production.png" alt="" /></td>
+<td class="bomber-desc">
+Upgrade: Improve your factory ship to accumulate resources more quickly.
+</td></tr>
+</table>
+
+<p>
+Ships you spawn fight automatically using the latest
+in artificial aquatelligence technology. The player who keeps their factory
+ship alive wins!
+</p>
+
+<h2>Credits</h2>
+<ul>
+<li>Game Design and Programming
+  <ul><li>
+    <a href="http://theinstructionlimit.com/">Renaud Bédard</a>,
+    <a href="http://henk.ca/">Henk Boom</a>,
+    <a href="http://gangles.ca/">Matthew Gallant</a>
+  </li></ul>
+</li>
+<li>Artwork
+  <ul><li><a href="http://dburtondesign.com/">Daniel Burton</a></li></ul>
+</li>
+<li>Music
+  <ul><li><a href="http://iam.benabraham.net/">Ben Abraham</a></li></ul>
+</li>
+<li>Port
+  <ul><li><a href="http://bompo-blog.appspot.com/">Stefan Wagner</a></li></ul>
+</li>
+</ul>
+
+<p>You can contact us at <a href="mailto:nofungames@gmail.com">nofungames@gmail.com</a>.</p>
+
+</div></body></html>
